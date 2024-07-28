@@ -3,12 +3,14 @@ import Sidebar from "./components/Sidebar";
 import Player from "./components/Player";
 import Display from "./components/Display";
 import { PlayerContext } from "./context/PlayerContext";
+import ApiManager from "../apis/ApiManager";
 
 const App = () => {
   const { audioRef, track } = useContext(PlayerContext);
 
   return (
     <div className="h-screen bg-gray-300">
+      <ApiManager />
       <div className="h-[90%] flex">
         <Sidebar />
         <Display />
