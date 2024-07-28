@@ -1,3 +1,6 @@
+Live Website Link : https://harmonyhubmusic.netlify.app/
+![Screenshot_20-7-2024_05338_localhost](https://github.com/user-attachments/assets/6e26d3be-fa9a-4221-9f46-cf4f844e10eb)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
